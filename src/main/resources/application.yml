@@ -1,0 +1,15 @@
+server:
+  port: 5000
+spring:
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://jewellery.csphkhmngt7a.eu-west-1.rds.amazonaws.com:3306/jewellery
+    username: admin
+    password: Aklpoirdy
+    driverClassName: com.mysql.cj.jdbc.Driver
